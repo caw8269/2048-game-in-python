@@ -1,12 +1,12 @@
-#logic.py to be import int 2048.py file
+#logic.py to be import into 2048.py file
 
-#importing random package for mtehods to generate random numbers
+#importing random package for methods to generate random numbers
 import random
 
 #function to initialize game/grid at the start of the game
 def start_game():
 
-    #declaring an empty list then appending 4 list each with four elements as 0
+    #declare an empty list then appending 4 list each with four elements as 0
     mat=[]
     for i in range(4):
         mat.append([0]*4)
@@ -21,10 +21,10 @@ def start_game():
     #call a function to add a new 2 in grid after every step
     add_new_2(mat)
     return mat
-#function 2 add a new 2 in grid at random emty cell
+#function 2 add a new 2 in grid at random empty cell
 def add_new_2(mat):
 
-    #choose a random indexfor row and column
+    #choose a random index for row and column
     r = random.randint(0,3)
     c = random.randint(0,3)
 
