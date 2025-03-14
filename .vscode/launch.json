@@ -13,7 +13,7 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: main.py: web-wasm",
+            "name": "Python: 2048.py: web-wasm (WIP)",
             "type": "python-web-wasm",
             "request": "launch",
             "program": "${workspaceFolder}//2048.py",
