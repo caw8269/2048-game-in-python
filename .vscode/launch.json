@@ -16,7 +16,7 @@
             "name": "Python: main.py: web-wasm",
             "type": "python-web-wasm",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}//main.py",
             "console": "integratedTerminal"
         }
     ]
