@@ -1,1 +1,1 @@
-# machine-learning
+# 2048-game-in-python
