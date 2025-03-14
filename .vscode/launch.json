@@ -10,9 +10,10 @@
             "type": "python-web-wasm",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "internalConsole"
         },
         {
+            //TODO: FIX THIS CONFIG
             "name": "Python: 2048.py: web-wasm (WIP)",
             "type": "python-web-wasm",
             "request": "launch",
