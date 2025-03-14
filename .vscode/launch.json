@@ -10,7 +10,7 @@
             "type": "python-web-wasm",
             "request": "launch",
             "program": "${file}",
-            "console": "internalConsole"
+            "console": "integratedTerminal"
         },
         {
             //TODO: FIX THIS CONFIG
