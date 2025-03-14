@@ -89,7 +89,7 @@ def compress(mat):
         pos = 0
 
         #loop to transverse columns in respective row
-        for j in range[4]:
+        for j in range(4):
             if(mat[i][j] != 0):
                 
                 #if cell is not empty then we  will shift it's number previous empty cell in that
